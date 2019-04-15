@@ -96,12 +96,28 @@ body{
     padding: 1.5rem;
     z-index: 2;
     position: absolute;
+    margin-top:12rem;
+    margin-left: 5rem;
+    background:white;
 }
 
 .col-md-4 img{
-    width: 30rem;
-    height: 25rem;
+    width: 13rem;
+    height: 10rem;
     z-index: -1;
+    margin: 1rem;
+}
+.col-md-4 .landing{
+    width: 40rem;
+    height: 30rem;
+    z-index: -1;
+    margin: 4rem;
+}
+.col-md-4 .terms{
+    width: 15rem;
+    height: 10rem;
+    z-index: -1;
+    margin: 1rem;
 }
 
  .btn-secondary{
@@ -156,6 +172,12 @@ body{
  }
  .feature p{
     font-size: 1.1rem;
+ }
+
+ .location{
+    width: 15rem;
+    height: 12rem;
+    margin: 1rem;
  }
 
  /* Resources Section */
