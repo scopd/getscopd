@@ -256,6 +256,24 @@ hr.socket{
     z-index: -1;
 }
 
+/*Safety Page*/
+.safety {
+    width: 349px;
+    height: 113px;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: black;
+  }
+  .safety .text-style-1 {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.35;
+  }
+
 /* Media Query Section*/
 
 @media(max-width: 767px){
