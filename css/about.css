@@ -5,39 +5,86 @@
   background-color: #ffffff;
   opacity: .85;
   position: absolute;
-  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 2%;
   top: 50%;
   z-index: 1;
-
-  
 }
 
- .mission-container h1 {
-   text-align: center;
-   font-family: Avenir;
-   letter-spacing: -2px;
-   color: #000000;
-   text-transform: uppercase;
-
+.mission-container h1 {
+  text-align: center;
+  font-family: Avenir-Heavy;
+  letter-spacing: -2px;
+  color: #000000;
+  text-transform: uppercase;
  }  
 
- .mission-container p {
-   font-family: Avenir;
-   letter-spacing: -.75px;
-   color: #000000;
-   text-align: justify;
-   text-justify: inter-word;
+.mission-container p {
+  font-family: Avenir-Book;
+  letter-spacing: -.75px;
+  color: #000000;
+  text-align: justify;
+  text-justify: inter-word;
  }
 
-@media screen and (max-width: 600px) {
+.mobile-screen-img {
+  max-width: 50%;
+  height: auto;
+  margin-top: 5%;
+  margin-left: 25%;
+ }
+
+.about-content-text {
+  font-family: Avenir-Book;
+  letter-spacing: -.75px;
+  color: #000000;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-top: 10%;
+}
+
+ @media screen and (max-width: 992px) {
+  .mobile-screen-img {
+    max-width: 75%;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .mission-container {
     width: 80%;
     padding: 1em;
   }
+
+  .about-content-text {
+    text-align: initial;
+  }
+  
+  .mobile-screen-img {
+    margin: 15% 0 15% 0;
+  }
 }
+
+@media screen and (max-width: 576px) {
+  
+  .mobile-screen-img {
+    max-width: 100%;
+    margin: 50% 0 0 0;
+  }
+
+  .about-content-text {
+    text-align: initial;
+    font-size: 75%;
+  }
+
+  .about-content-text h4 {
+    text-align: initial;
+    font-size: 5vw;
+  }
+}
+
+
+
 
 
   
