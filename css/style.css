@@ -258,7 +258,7 @@ hr.socket{
 
 /*Safety Page*/
 .safety {
-    width: 349px;
+    width: 38rem;
     height: 113px;
     font-size: 16px;
     font-weight: normal;
@@ -267,6 +267,7 @@ hr.socket{
     line-height: normal;
     letter-spacing: normal;
     color: black;
+    justify-items: center;
   }
   .safety .text-style-1 {
     font-size: 20px;
