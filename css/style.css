@@ -44,7 +44,6 @@ body{
 /*--- Landing Page ---*/
 
 .home-inner{
-    /*background-image: url("img\computers.png");*/
     background: url(../img/background_img@2x.png);
 
 }    
@@ -111,10 +110,13 @@ body{
     margin: 1rem;
 }
 .col-md-4 .landing{
-    width: 40rem;
-    height: 30rem;
+    width: 100%;
+    height: 80vh;
     z-index: -1;
     margin: 4rem;
+    position: relative;
+    display: table;
+ 
 }
 .col-md-4 .terms{
     width: 15rem;
@@ -150,7 +152,7 @@ body{
  }
 
  h3.heading{
-    font-size: 1.9rem;
+    font-size: 3rem;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 1.9rem;
@@ -192,7 +194,7 @@ body{
  /* Resources Section */
 
  .fixed{
-     background-image: url("../img/apple.png");
+     
      z-index: -1;
  }
 
@@ -229,9 +231,9 @@ blockquote .svg-inline--fa{
 /* Contact Section */
 
 footer{
-    background-color: #f2f2f2;
-    color: black;
-    padding: 2rem 0 2rem;
+    background-color:#40474e;
+    color: white;
+    padding: 1rem 0 1rem;
     margin-top: 1rem;
 }
 
@@ -241,7 +243,7 @@ footer img{
 }
 
 footer a{
-    color: black;
+    color: white;
 }
 
 footer svg.svg-inline--fa{
@@ -321,6 +323,74 @@ hr.socket{
         margin: 0 auto;
     }
 }
+@media screen and (min-width: 993px) {
+    .home-inner {
+      margin-top: -10vh;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .home-inner {
+      background-size: 992px, auto;
+    }
+  
+    .landing {
+      max-width: 75%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .home-inner {
+      margin-top: -8vh;
+      background-size: 768px, auto;
+    }
+  
+    .col-md-8 p{
+      width: 80%;
+      padding: 1em;
+    }
+  
+    .about-content-text {
+      text-align: initial;
+    }
+    
+    .landing {
+      margin: 15% 0 15% 0;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+  
+    .about {
+      height: 65vh;
+    }
+  
+    .mission-container {
+      margin-top: -15vh;
+    }
+  
+    .home-inner {
+      background-size: 768px, auto;
+      height: 80vh;
+    }
+  
+    .landing {
+      max-width: 100%;
+      margin-right: 0;
+    }
+  
+    .about-content-text {
+      text-align: initial;
+      font-size: 75%;
+    }
+  
+    .about-content-text h4 {
+      text-align: initial;
+      font-size: 5vw;
+    }
+  }
+  
+  
 
 /*============ BOOTSTRAP BREAK POINTS:
 
