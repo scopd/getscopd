@@ -357,6 +357,61 @@ hr.socket{
 
 }
 
+@media only screen and (min-width: 992px){
+  .clients img{
+    width: 34rem;
+    height: 29rem;
+    display: block;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
+  .connect p{
+    width: 40rem;
+    height: auto;
+    margin-top: 30%;
+    margin-left: 75%;
+    padding: 0.5rem;
+    font-size: 1.7rem;
+  }
+
+  .offset:before{
+    margin-top: 1rem;
+  }
+
+  .features p{
+    width: 10rem;
+    margin-left: 25%;
+    
+  }
+  .location img{
+    width: 20rem;
+    margin-left: 22rem;
+  }
+  .location h3{
+    justify-content: center;
+    margin-left: 28rem;
+  }
+
+  .map img{
+      width: 30rem;
+      margin-left: 20rem;
+  }
+  .map h6{
+      margin-left: 20rem;
+  }
+  .heading{
+   margin: 0;
+    padding: 0;
+  }
+  .safe p{
+      margin-left:5rem;
+      margin-bottom: 2rem;
+      
+  }
+
+}
+
 
   
   
