@@ -3,7 +3,6 @@
 .mission-container {
   box-shadow: 5px 5px 10px 0 #6a758f;
   background-color: #ffffff;
-  opacity: .85;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
