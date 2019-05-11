@@ -62,7 +62,8 @@ body{
 }
 
 .caption h1{
-    font-size: 3.8rem;
+    /* font-size: 3.8rem; */
+    font-size: calc(2rem + 2.5vw);
     font-weight: 700;
     letter-spacing: .3rem;
     text-shadow: .1rem .1rem .8rem black;
@@ -165,8 +166,9 @@ body{
  }
 
  .features img{
-   width: 6rem;
+   width: 10vw;
    margin-bottom: 1rem;
+   align-content: center;
  }
  .feat p{
    width: 50rem;
@@ -304,7 +306,7 @@ hr.socket{
  /*tablet*/
 @media only screen and (min-width: 767px){
     .caption h1{
-        font-size: 2.3rem;
+        /* font-size: 2.3rem; */
         letter-spacing: .15rem;
         padding-bottom: .5rem;
     }
@@ -341,8 +343,9 @@ hr.socket{
 
    .features p{
      width: 10rem;
-     align-items: center;
+     /* align-items: center; */
      margin-left: 0.5rem;
+     text-align: center;
    }
    .terms{
      width:100%
